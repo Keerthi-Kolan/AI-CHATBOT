@@ -29,8 +29,8 @@ User-Friendly Interface – A clean and intuitive UI for effortless chatbot inte
 ### Frontend
 
 - React.js
-- TypeScript
-- Tailwind CSS/ Material UI
+- Vite
+- Material UI
 
 ### Backend
 
@@ -83,8 +83,6 @@ PORT=5000
 ```
 
 ### API Endpoints
-
-## API Endpoints
 
 ### User Routes
 
