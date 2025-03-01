@@ -81,3 +81,42 @@ COOKIE_SECRET=your_cookie_secret
 PORT=5000
 
 ```
+
+### API Endpoints
+
+## API Endpoints
+
+### User Routes
+
+- **`GET /api/user/`**  
+  Fetch all users.
+
+- **`POST /api/user/signup`**  
+  Register a new user.
+
+- **`POST /api/user/login`**  
+  Login a user (returns a JWT token).
+
+- **`GET /api/user/auth-status`**  
+  Verify if the user is authenticated.  
+  **Access**: Protected (JWT required)
+
+- **`GET /api/user/logout`**  
+  Logout the user (invalidates the JWT).  
+  **Access**: Protected (JWT required)
+
+---
+
+### Chat Routes
+
+- **`POST /api/chat/new`**  
+  Create a new chat using OpenAI’s chat completion.  
+  **Access**: Protected (JWT required)
+
+- **`GET /api/chat/all-chats`**  
+  Retrieve all the chats for the authenticated user.  
+  **Access**: Protected (JWT required)
+
+- **`DELETE /api/chat/delete`**  
+  Delete chats for the authenticated user.  
+  **Access**: Protected (JWT required)
