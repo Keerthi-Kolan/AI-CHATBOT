@@ -105,8 +105,6 @@ PORT=5000
   Logout the user (invalidates the JWT).  
   **Access**: Protected (JWT required)
 
----
-
 ### Chat Routes
 
 - **`POST /api/chat/new`**  
