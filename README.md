@@ -49,3 +49,35 @@ git clone https://github.com/Keerthi-Kolan/AI-CHATBOT.git
 cd AI CHAT-BOT
 
 ```
+
+#### Install Dependencies
+
+##### Backend
+
+```sh
+cd backend
+npm install
+
+```
+
+##### Frontend
+
+```sh
+cd frontend
+npm install
+
+```
+
+#### Setup Environment variables
+
+Create a .env file in the backend folder and add:
+
+```env
+OPEN_AI_SECRET=your_open_ai_secret
+OPEN_AI_ORGANIZATION_ID=your_open_ai__organization_id
+MONGODB_URL=your_mongodb_url
+JWT_SECRET=your_jwt_secret
+COOKIE_SECRET=your_cookie_secret
+PORT=5000
+
+```
